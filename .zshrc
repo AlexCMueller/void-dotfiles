@@ -15,6 +15,10 @@ typeset -U path
 path+=($HOME/.cabal/bin)
 path+=($HOME/.local/bin)
 
+export EDITOR="nvim"
+
+alias ls="ls --color=auto"
+
 if [ $TERM = "rxvt-unicode-256color" ]
     then
     powerline-daemon -q
