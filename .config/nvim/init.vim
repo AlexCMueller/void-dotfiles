@@ -22,15 +22,12 @@ endif
 syntax enable
 filetype plugin on
 set number
-set background=dark
 colorscheme solarized
+set background=dark
 
 set expandtab
 set tabstop=4
 set shiftwidth=4
-
-highlight Normal ctermbg=none
-highlight NonText ctermbg=none
 
 map <C-f> :NERDTreeToggle %<CR>
 map <F5> :!make<CR>
