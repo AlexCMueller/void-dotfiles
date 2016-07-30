@@ -11,7 +11,7 @@ call dein#add('/home/zachary/.dein/repos/github.com/Shougo')
 call dein#add('neomake/neomake')
 call dein#add('altercation/vim-colors-solarized')
 call dein#add('scrooloose/nerdtree')
-
+call dein#add('rust-lang/rust.vim')
 
 call dein#end()
 
