@@ -12,6 +12,7 @@ call dein#add('neomake/neomake')
 call dein#add('altercation/vim-colors-solarized')
 call dein#add('scrooloose/nerdtree')
 call dein#add('rust-lang/rust.vim')
+call dein#add('metakirby5/codi.vim')
 
 call dein#end()
 

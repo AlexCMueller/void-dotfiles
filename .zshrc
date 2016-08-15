@@ -24,3 +24,9 @@ if [ $TERM = "rxvt-unicode-256color" ]
     powerline-daemon -q
     . $HOME/.local/lib/python3.4/site-packages/powerline/bindings/zsh/powerline.zsh
 fi
+
+# Codi
+# Usage: codi [filetype] [filename]
+codi() {
+  nvim $2 -c "Codi ${1:-python}"
+}
