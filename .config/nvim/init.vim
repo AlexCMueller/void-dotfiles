@@ -32,7 +32,7 @@ set tabstop=4
 set shiftwidth=4
 
 map <C-f> :NERDTreeToggle %<CR>
-map <F5> :!make<CR>
+map <F5> :!git exec make<CR>
 
 let g:NERDTreeDirArrowExpandable="+"
 let g:NERDTreeDirArrowCollapsible="~"
